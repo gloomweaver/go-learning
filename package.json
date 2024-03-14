@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "generate:watch": "tailwindcss -i ./shared/styles.css -o ./static/styles.css --watch",
+    "generate": "tailwindcss -i ./shared/styles.css -o ./static/styles.css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
